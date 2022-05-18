@@ -21,21 +21,22 @@
       /*제목 행의 배경색*/
     }
 
-    th,
-    td {
+    th, td {
       border: 1px solid #ccc;
       padding: 5px;
       font-size: 0.8em;
-      text-align: center;
       /*글자를 중앙에 둠*/
     }
   .ran{
-    font-size:1.5em;
+    font-size: 1.5em;
    padding: 5px;
    text-align: left;
    margin-top: 0;
-   color: red;
-
+  }
+  .dom{
+    color: red;
+    line-height: 2;
+    font-weight: bold;
   }
   </style>
 </head>
@@ -323,7 +324,7 @@
       </tr>
 
       <tr>
-        <td colspan="3"><span class="ran">[텍스트 관련 스타일] 규칙 : 선택자{속성:속성값;}</span></td>
+        <td colspan="3"><span class = "ran">[텍스트 관련 스타일] 규칙 :<span class = "dom">선택자{속성:속성값;}</span></span></td>
       </tr>
 
       <tr>
